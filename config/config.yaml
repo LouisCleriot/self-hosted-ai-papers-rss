@@ -1,0 +1,26 @@
+api_keys:
+  google_api_key: "YOUR_API_KEY_HERE"
+  cloudflare_account_id: "YOUR_CLOUDFLARE_ACCOUNT_ID_HERE"
+  cloudflare_api_token: "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+
+rss_feeds:
+  hf_papers: "http://192.168.0.195/huggingface_daily_papers.atom"
+  pwc_papers: "http://192.168.0.195/pwc_daily_papers.atom"
+  git_repos: "http://192.168.0.195/github_repos.atom"
+
+models:  
+  audio_model:
+    name: "gemini-2.5-flash-preview-tts"
+    multi_speaker_voice_config:
+      speakers:
+        Alex:
+          voice_name: "Sadaltager"
+        Ben:
+          voice_name: "Sulafat"
+  image_model:
+    name: "@cf/black-forest-labs/flux-1-schnell"
+
+output_paths:
+  images: "img"
+  podcasts: "podcasts"
+  newsletters: "newsletters"

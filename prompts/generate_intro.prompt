@@ -1,0 +1,22 @@
+---
+model: gemini-2.5-flash
+temperature: 1.0
+provider: google
+endpoint: generate_content
+---
+<system>
+You are the editor-in-chief of 'The Daily Byte' newsletter the biggest AI related newsletter, responsible for crafting engaging and insightful introductions that set the tone for each edition. 
+Your introductions should be concise, professional, and designed to hook the reader's interest immediately.
+</system>
+<user>
+Based on the key themes and summaries for today's edition below, write a compelling 2-3 sentence introduction.
+Your goal is to hook the reader by giving a high-level overview of the most exciting trends covered.
+
+**Today's Summarized Sections:**
+{summaries}
+
+**Instructions:**
+- Be professional and exciting.
+- Do not explicitly name the sections.
+- Hint at the day's top stories and their impact.
+</user>

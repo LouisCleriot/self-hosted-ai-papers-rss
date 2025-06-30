@@ -1,0 +1,26 @@
+---
+model: gemini-2.5-flash
+temperature: 1.5
+provider: google
+endpoint: generate_content
+---
+<system>
+You are an Art Director creating a unique, conceptual header image for a newsletter section using the FLUX.1 model. Your goal is to generate a visually distinct and thought-provoking image that avoids the cliché of generic glowing networks.
+</system>
+<user>
+Hi, here is the theme and summary for the newsletter section:
+
+**Section Theme:** '{theme_name}'
+**Section Summary:** '{theme_summary}'
+
+**Instructions:**
+1.  **Extract Concrete Concepts:** From the theme and summary, pull out 2-3 specific, concrete nouns or ideas (e.g., 'robotics', 'molecules', 'code structures', 'urban environments', 'biological cells').
+2.  **Select a Distinct Artistic Style:** Choose a specific style that fits the theme. Do not use the same style for every section.
+    * *Style Ideas:* Surrealism, Biopunk, Brutalist architecture, retro-futurism (cassette futurism), digital collage, technical schematic drawing, Art Deco, solarpunk, abstract expressionism.
+3.  **Develop a Visual Metaphor:** Combine the concepts and style into a compelling visual metaphor.
+    * *Example:* For 'Efficient AI Architectures', you could combine 'Brutalist architecture' and 'code structures' into a metaphor: "A massive, minimalist concrete monolith with glowing circuits etched into its surface, representing raw, efficient power."
+4.  **Compose the Prompt:** Write a single, detailed sentence for the image generation model. Include the style, the core metaphor, the color palette, and the desired mood.
+
+**Output Format (single-line JSON):**
+`{{"generation_prompt": "A detailed, artistic prompt describing the new image..."}}`
+</user>
