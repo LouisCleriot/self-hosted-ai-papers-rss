@@ -64,14 +64,14 @@ The project operates in two main stages:
         ```bash
         pip install -r requirements.txt
         ```
-    - Create a `.env` file in the root of the project and add your API keys:
-        ```
+
+4. **Configure the application:**
+    - Open the `config/config.yaml` file to customize the RSS feeds, models, output paths and add your different key
+       ```
         GOOGLE_API_KEY="your_google_api_key"
         CLOUDFLARE_ACCOUNT_ID="your_cloudflare_account_id"
         CLOUDFLARE_API_TOKEN="your_cloudflare_api_token"
         ```
-4. **Configure the application:**
-    - Open the `config/config.yaml` file to customize the RSS feeds, models, and output paths.
 
 ## Usage
 
