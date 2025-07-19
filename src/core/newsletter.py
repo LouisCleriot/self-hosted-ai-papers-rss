@@ -2,14 +2,18 @@ import json
 from datetime import datetime
 from src.utils import file_handler
 import os 
+import re
 
 class NewsletterGenerator:
-    def __init__(self, gemini_service, cloudflare_service, prompts, output_paths, all_content):
+    def __init__(self, gemini_service, cloudflare_service, prompts, output_paths, papers_content, reddit_content, repos_content):
         self.gemini = gemini_service
         self.cloudflare = cloudflare_service
         self.prompts = prompts
         self.output_paths = output_paths
-        self.all_content = all_content
+        self.papers_content = papers_content
+        self.reddit_content = reddit_content
+        self.repos_content = repos_content
+        self.all_content = papers_content+repos_content
         self.today_date = datetime.now().strftime("%B %d, %Y")
         self.today_date_dir = datetime.now().strftime("%Y-%m-%d")
         
@@ -21,6 +25,14 @@ class NewsletterGenerator:
 
         themed_data = self._categorize_content()
         if not themed_data:
+            return None
+        
+        community_theme = self._process_community_section()
+        if community_theme:
+            themed_data["themes"].update(community_theme)
+
+        if not themed_data["themes"]:
+            print("No themes or community content to generate newsletter.")
             return None
 
         theme_details = self._process_themes(themed_data)
@@ -73,6 +85,48 @@ class NewsletterGenerator:
             }
         return theme_details
     
+    def _process_community_section(self):
+        """Analyzes Reddit content to create a 'Community Spotlight' section."""
+        if not self.reddit_content:
+            return None
+        
+        print("Processing Reddit content for Community Spotlight...")
+
+        posts_list_for_prompt = "\n".join([f"Index {post['index']}: {post['title']}\n\n{post['details']}" for post in self.reddit_content])
+        selector_response = self._call_gemini_with_prompt('reddit_selector', reddit_posts_list=posts_list_for_prompt)
+        try:
+            best_post_indexes = json.loads(selector_response)["best_post_indexes"]
+            print(f"Best post indexes selected: {best_post_indexes}")
+            chosen_posts = [p for p in self.reddit_content if p['index'] in best_post_indexes]
+            if not chosen_posts:
+                print("Error: Could not find the chosen Reddit post.")
+                return None
+        except (json.JSONDecodeError, TypeError, KeyError) as e:
+            print(f"Error selecting best Reddit post: {e}\nLLM Response:\n{selector_response}")
+            chosen_posts = self.reddit_content
+        print(f"Selected {len(chosen_posts)} Reddit Posts for analysis")
+        reddit_chosen_posts_str = ""
+        for chosen_post in chosen_posts:
+            reddit_chosen_posts_str += f"**Title:** {chosen_post['title']}\n\n**Details:**\n{chosen_post['details']}\n\n---\n\n"
+
+        theme_name = "Community Spotlight"
+        summary = self._call_gemini_with_prompt(
+            'reddit_analyst', 
+            reddit_posts_list=reddit_chosen_posts_str,
+        )
+        
+        header_image_path = self._generate_theme_image(theme_name, summary)
+        header_image_path = os.path.join("..", "..", header_image_path)
+
+        community_theme = {
+            theme_name: {
+                "summary": summary or "Summary could not be generated.",
+                "items": chosen_posts,
+                "header_image_path": header_image_path
+            }
+        }
+        return community_theme
+    
     def _generate_theme_summary(self, theme_name, items):
         items_details_for_prompt = "\n\n".join([f"**Title: {item['title']}**\n**Details:**\n{item['details']}" for item in items])
         return self._call_gemini_with_prompt('analyst_journalist', theme_name=theme_name, items_details=items_details_for_prompt)
@@ -114,22 +168,18 @@ class NewsletterGenerator:
         print("Assembling final newsletter...")
         newsletter_md = f"# BYTE-SIZED AI & CODE - {self.today_date}\n\n"
         if hero_image_path:
-            #newsletter_md += f"![Daily Byte Hero Image]({hero_image_path})\n\n"
             newsletter_md += "\\begin{center}\n"
             newsletter_md += f"\\includegraphics[width=0.5\\textwidth]{{{hero_image_path}}}\n"
             newsletter_md += "\\end{center}\n\n"
-            #newsletter_md += f"<img src=\"{hero_image_path}\" alt=\"Daily Byte Hero Image\" style=\"width:50%; height:auto;\">\n\n"
         newsletter_md += "Your daily digest of trending AI research and developer tools.\n\n---\n\n"
         if introduction:
             newsletter_md += f"**Today's Overview:** {introduction}\n\n"
 
         for theme_name, details in theme_details.items():
-            icon = "⚙️" if "GitHub" in theme_name else "🔬"
-            #newsletter_md += f"![{theme_name}]({details['header_image_path']})\n\n"
+            icon = "🗣️" if "Community" in theme_name else ("⚙️" if "GitHub" in theme_name else "🔬")
             newsletter_md += "\\begin{center}\n"
             newsletter_md += f"\\includegraphics[width=0.5\\textwidth]{{{details['header_image_path']}}}\n"
             newsletter_md += "\\end{center}\n\n"
-            #newsletter_md += f"<img src=\"{details['header_image_path']}\" alt=\"{theme_name}\" style=\"width:50%; height:auto;\">\n\n"
             newsletter_md += f"## {icon} {theme_name}\n\n"
             newsletter_md += f"{details['summary']}\n\n"
             newsletter_md += "**Key Links:**\n"

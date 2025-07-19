@@ -27,7 +27,7 @@ def get_and_process_readme(repo_url):
     try:
         readme_url = repo_url.replace('github.com', 'raw.githubusercontent.com') + '/refs/heads/main/README.md'
         branch="main"
-        headers = {'User-Agent': 'Your-RSS-Generator/1.0'}
+        headers = {'User-Agent': 'RSS-Generator/1.0'}
         response = requests.get(readme_url, headers=headers, timeout=15)
         if response.status_code != 200:
             readme_url = repo_url.replace('github.com', 'raw.githubusercontent.com') + '/refs/heads/master/README.md'
@@ -72,7 +72,6 @@ def generate_feed():
 
     soup = BeautifulSoup(response.content, 'lxml')
 
-    # --- Feed Initialization ---
     fg = FeedGenerator()
     fg.title(f"GitHub Trending Repositories - {TODAY_STR}")
     fg.link(href=TARGET_URL, rel='alternate')
@@ -107,20 +106,23 @@ def generate_feed():
 
         description_elem = repo_elem.select_one(DESCRIPTION_SELECTOR)
         description = description_elem.get_text(strip=True) if description_elem else "No description provided."
-
+        is_chinese = False
+        if any('\u4e00' <= char <= '\u9fff' for char in description):
+            description = "This repository has a Chinese description. Please visit the link for more details."
+            is_chinese = True
         stars_today_elem = repo_elem.select_one(STARS_TODAY_SELECTOR)
         stars_today = "Not available"
         if stars_today_elem:
             stars_today = stars_today_elem.get_text(strip=True)
         
-        # --- Constructing the content for the feed entry ---
         #content_html = f"{description}"
         final_content = f"Stars today: {stars_today.replace('stars today', '').strip()}"
         
         fe.summary(description)
-        
-        readme_html = get_and_process_readme(absolute_repo_url)
-        
+        if not is_chinese:
+            readme_html = get_and_process_readme(absolute_repo_url)
+        else:
+            readme_html = "<p>This repository has a Chinese description. Please visit the link for more details.</p>"
         if readme_html:
             final_content += readme_html
         else:
@@ -130,7 +132,6 @@ def generate_feed():
         
         fe.content(final_content, type='html')
 
-    # --- Saving the Feed ---
     try:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         fg.atom_file(str(OUTPUT_PATH), pretty=True)

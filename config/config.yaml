@@ -1,12 +1,16 @@
 api_keys:
-  google_api_key: "YOUR_API_KEY_HERE"
-  cloudflare_account_id: "YOUR_CLOUDFLARE_ACCOUNT_ID_HERE"
-  cloudflare_api_token: "YOUR_CLOUDFLARE_API_TOKEN_HERE"
+  google_api_key: "AIzaSyAGq8UhaBqAcESLtZMSOVJgnTQ0Qyj_-RI"
+  cloudflare_account_id: "7d49ef94c4f3ac063f41738c36502171"
+  cloudflare_api_token: "VSQF-uAre3KgN8DXksORyVXWEWhVfx6Qx_TjeIbC"
 
 rss_feeds:
-  hf_papers: "http://192.168.0.195/huggingface_daily_papers.atom"
-  pwc_papers: "http://192.168.0.195/pwc_daily_papers.atom"
-  git_repos: "http://192.168.0.195/github_repos.atom"
+  hf_papers: "http://localhost/huggingface_daily_papers.atom"
+  pwc_papers: "http://localhost/pwc_daily_papers.atom"
+  git_repos: "http://localhost/github_repos.atom"
+  artificial_intelligence_reddit: "http://localhost/ArtificialInteligence_top_posts.atom"
+  machine_learning_reddit: "http://localhost/MachineLearning_top_posts.atom"
+  machine_learning_news_reddit: "http://localhost/machinelearningnews_top_posts.atom"
+  technology_reddit: "http://localhost/technology_top_posts.atom"
 
 models:  
   audio_model:

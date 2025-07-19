@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://www.reddit.com/r/MachineLearning/top?t=day&amp;limit=5</id>
+  <title>Top posts of r/MachineLearning - 2025-07-03</title>
+  <updated>2025-07-04T03:33:42.758177+00:00</updated>
+  <link href="https://www.reddit.com/r/MachineLearning/top?t=day"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Daily top posts from r/MachineLearning</subtitle>
+  <entry>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1lqhoe2/d_are_nlp_theory_papers_helpful_for_industry/</id>
+    <title>[D] Are NLP theory papers helpful for industry research scientist roles?</title>
+    <updated>2025-07-04T03:33:46.969648+00:00</updated>
+    <content type="html">&lt;h1&gt;[D] Are NLP theory papers helpful for industry research scientist roles?&lt;/h1&gt;
+
+&lt;p&gt;Currently I'm quite interested in NLP theory, and have some questions about how to make them count for RS roles in industry roles at top AI labs.&lt;br /&gt;
+(1) Does the number of papers help? My impression is that having many papers that are "purely theoretical" may not help that much, and AI labs will only count the number of "relevant papers" (and exclude those that are less relevant).&lt;br /&gt;
+(2) If the theory paper also yields strong empirical results, is it important to frame it as an empirical paper (and maybe put the theory in the appendix)? This could compensate for any perceived weakness with theoretical work.&lt;br /&gt;
+(3) What topics in language/vision models are particularly relevant in industry? Efficiency of LLMs is one priority; MoE, sparse attention &amp;amp; structured sparsity, are two approaches to efficient LLMs.
+https://www.reddit.com/r/MachineLearning/comments/1lqhoe2/d&lt;em&gt;are&lt;/em&gt;nlp&lt;em&gt;theory&lt;/em&gt;papers&lt;em&gt;helpful&lt;/em&gt;for_industry/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.91
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 9
+&lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lqhoe2/d_are_nlp_theory_papers_helpful_for_industry/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;1) Number of papers is more of a screening metric that doesn't matter once you reach the interview stage. After that, as you said the relevant papers (and relevant experience from internships, open-source work, etc.) are more important.&lt;br /&gt;
+2) Having both strong theory and empirical results is, in my opinion, better than only strong empirical results. I wouldn't go out of my way to "hide" the theory. When you discuss your papers on an interview or during a research talk you can still frame the work however you think is best aligned with the team you're interviewing for. &lt;/p&gt;
+
+&lt;p&gt;3) There are many relevant topics across the entire pipeline from data collection/curation to (agentic) model deployment/inference, but it totally varies from team to team. One team might care a lot about efficiency while another is only interested in exploring reasoning/RL techniques. If you want to best position yourself for one of these roles, I'd advise to focus on a particular niche where you can distinguish yourself from the average applicant. Also keep in mind that the field is moving so fast that the hot topics today might no longer be hot 6 months from now, so just do something you're interested in and think you can do well, and it will probably work out better than just chasing trends and drowning in the competition&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 7&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If # papers is a screening metric, roughly would they expect to clear this stage? Thanks. (Upvotes: 1)
+&lt;h3&gt;Comment 2:&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What is NLP theory? Are you talking about linguistics, classical NLP tasks, or theory of deep learning? I did not really know NLP theory was a thing... I know there is theoretical linguistics (I have a lot of NLP experience).&lt;/p&gt;
+
+&lt;p&gt;If you study the properties of transformers, for example, it is more of a ICLR/ICML/NIPS/AAAI/... than an ACL paper if I am not mistaken. If you study some lingustic property or how language models represent it, it is an NLP paper.&lt;/p&gt;
+
+&lt;p&gt;Edit: regardless, I think all of the above are at least good enough for researchy DS roles as long as you use some ML. RS roles are pretty sparse currently but in one of my jobs, I personally collaborated with folks from one of the largest research labs (DeepMind/FAIR/Anthropic) and some of them had humanities NLP background.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 2&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1lqhoe2/d_are_nlp_theory_papers_helpful_for_industry/"/>
+    <summary>&lt;p&gt;Currently I'm quite interested in NLP theory, and have some questions about how to make them count for RS roles in industry roles at top AI labs.&lt;br /&gt;
+(1) Does the number of papers help? My impression is that having many papers that are "purely theoretical" may not help that much, and AI labs will only count the number of "relevant papers" (and exclude those that are less relevant).&lt;br /&gt;
+(2) If the theory paper also yields strong empirical results, is it important to frame it as an empirical paper (and maybe put the theory in the appendix)? This could compensate for any perceived weakness with theoretical work.&lt;br /&gt;
+(3) What topics in language/vision models are particularly relevant in industry? Efficiency of LLMs is one priority; MoE, sparse attention &amp;amp; structured sparsity, are two approaches to efficient LLMs.
+https://www.reddit.com/r/MachineLearning/comments/1lqhoe2/d&lt;em&gt;are&lt;/em&gt;nlp&lt;em&gt;theory&lt;/em&gt;papers&lt;em&gt;helpful&lt;/em&gt;for_industry/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1lr15dk/d_a_serious_concern_on_the_acl_rolling_review/</id>
+    <title>[D] A Serious Concern on the ACL Rolling Review System</title>
+    <updated>2025-07-04T03:33:46.205183+00:00</updated>
+    <content type="html">&lt;h1&gt;[D] A Serious Concern on the ACL Rolling Review System&lt;/h1&gt;
+
+&lt;p&gt;While I understand the traditional conference review paradigm involving initial scores, author rebuttals, and final scores, this model is beginning to show clear cracks under the scale and competitiveness of today’s A-level (and even mid-tier) venues. Increasingly, reviewers tend to give deliberately conservative or low pre-rebuttal scores, knowing that authors will be compelled to respond in the rebuttal phase. Even when a higher score is justified, reviewers often hold back, defaulting to borderline decisions just to see how the authors respond.&lt;/p&gt;
+
+&lt;p&gt;This issue is even more pronounced with ACL Rolling Review, where the scoring system is vague and lacks standard terminology such as Accept, Borderline, or Reject. This makes the process even more opaque. The ARR policy clearly states that responding to review comments is not mandatory. Yet, as an author, I am expected to thoroughly and respectfully address reviewer concerns, even when they are speculative or unreasonable. This one-sided non-obligation creates a deeply flawed power imbalance.&lt;/p&gt;
+
+&lt;p&gt;Here’s where it gets worse.&lt;/p&gt;
+
+&lt;p&gt;Many reviewers, when submitting their own papers and receiving poor reviews, tend to reflect their frustration onto the papers they are assigned to review. I have observed the following patterns:&lt;/p&gt;
+
+&lt;p&gt;Case 1: A reviewer receives bad reviews on their own paper and becomes unnecessarily harsh or disengaged in the reviews they provide for others.&lt;/p&gt;
+
+&lt;p&gt;Case 2: Prior to seeing their own reviews, reviewers play it safe by giving slightly lower pre-rebuttal scores than deserved. After receiving unfavorable reviews, they either ignore rebuttals completely or refuse to revise their scores, even when rebuttals clearly address their concerns.&lt;/p&gt;
+
+&lt;p&gt;This leads to a toxic feedback loop where every paper becomes a collateral victim of how a reviewer’s own submission is treated. I have seen this firsthand.&lt;/p&gt;
+
+&lt;p&gt;In the current ARR May cycle:
+I received 10 reviews across 3 papers, with only 2 reviewers responding post-rebuttal.&lt;/p&gt;
+
+&lt;p&gt;From 4 papers I reviewed, totaling 12 reviews, only 6 reviewers responded, and 4 of those responses were mine.&lt;/p&gt;
+
+&lt;p&gt;We need to acknowledge a basic truth: acknowledging a rebuttal should be a moral minimum. Yet today, there is no incentive for honest reviewing, and no consequence for disengaged or negligent behavior. Why should any of us continue to uphold moral obligations, being fair, constructive, and thorough, when our own work receives careless and dismissive treatment?&lt;/p&gt;
+
+&lt;p&gt;This culture cannot be allowed to continue. Unless ACL/ARR enforces stricter policies, such as making post-rebuttal justification and score updates mandatory (as CVPR and other CVF conferences do), the system will continue to erode.&lt;/p&gt;
+
+&lt;p&gt;I am a young researcher trying to do my part for this community. But after repeated experiences like this, what incentive do I have to stay committed to high standards as a reviewer? Why should I put in the effort when others do not?&lt;/p&gt;
+
+&lt;p&gt;A system where morality is optional will ultimately breed apathy and toxicity. It is time for a structural shift.&lt;/p&gt;
+
+&lt;p&gt;Always, to the hope.&lt;/p&gt;
+
+&lt;h1&gt;acl #emnlp #arr&lt;/h1&gt;
+
+&lt;p&gt;https://www.reddit.com/r/MachineLearning/comments/1lr15dk/d&lt;em&gt;a&lt;/em&gt;serious&lt;em&gt;concern&lt;/em&gt;on&lt;em&gt;the&lt;/em&gt;acl&lt;em&gt;rolling&lt;/em&gt;review/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.84
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 17
+&lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lr15dk/d_a_serious_concern_on_the_acl_rolling_review/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;If a reviewer is not convinced by a rebuttal I don't think it makes sense to force him to engage in long conversations. Sometimes not answering is ok.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 4&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;I have not seen your observation that reviewers intentionally pick middling scores at first, just to see how authors respond. Like, not even once. Reviewers don't want to be involved in a long back and forth as much as you don't.&lt;/p&gt;
+
+&lt;p&gt;However, you make an apt point that reviewers who also have their own submissions in the same cycle inherently have a conflict of interest. Absolutely it's a bad setup, and I agree that their mood could be shaped by their own paper feedback.&lt;/p&gt;
+
+&lt;p&gt;It's a difficult situation. There aren't enough reviewers already, so banning those that have submissions only makes it worse. But including them like we do now is problematic like you say. I don't know what the solution is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 3&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The only solution is to reduce the paper-mill frequency. Every person who submits in a cycle, cannot submit to the next cycle, and must serve as a reviewer in the next cycle. (Upvotes: 2)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1lr15dk/d_a_serious_concern_on_the_acl_rolling_review/"/>
+    <summary>&lt;p&gt;While I understand the traditional conference review paradigm involving initial scores, author rebuttals, and final scores, this model is beginning to show clear cracks under the scale and competitiveness of today’s A-level (and even mid-tier) venues. Increasingly, reviewers tend to give deliberately conservative or low pre-rebuttal scores, knowing that authors will be compelled to respond in the rebuttal phase. Even when a higher score is justified, reviewers often hold back, defaulting to borderline decisions just to see how the authors respond.&lt;/p&gt;
+
+&lt;p&gt;This issue is even more pronounced with ACL Rolling Review, where the scoring system is vague and lacks standard terminology such as Accept, Borderline, or Reject. This makes the process even more opaque. The ARR policy clearly states that responding to review comments is not mandatory. Yet, as an author, I am expected to thoroughly and respectfully address reviewer concerns, even when they are speculative or unreasonable. This one-sided non-obligation creates a deeply flawed power imbalance.&lt;/p&gt;
+
+&lt;p&gt;Here’s where it gets worse.&lt;/p&gt;
+
+&lt;p&gt;Many reviewers, when submitting their own papers and receiving poor reviews, tend to reflect their frustration onto the papers they are assigned to review. I have observed the following patterns:&lt;/p&gt;
+
+&lt;p&gt;Case 1: A reviewer receives bad reviews on their own paper and becomes unnecessarily harsh or disengaged in the reviews they provide for others.&lt;/p&gt;
+
+&lt;p&gt;Case 2: Prior to seeing their own reviews, reviewers play it safe by giving slightly lower pre-rebuttal scores than deserved. After receiving unfavorable reviews, they either ignore rebuttals completely or refuse to revise their scores, even when rebuttals clearly address their concerns.&lt;/p&gt;
+
+&lt;p&gt;This leads to a toxic feedback loop where every paper becomes a collateral victim of how a reviewer’s own submission is treated. I have seen this firsthand.&lt;/p&gt;
+
+&lt;p&gt;In the current ARR May cycle:
+I received 10 reviews across 3 papers, with only 2 reviewers responding post-rebuttal.&lt;/p&gt;
+
+&lt;p&gt;From 4 papers I reviewed, totaling 12 reviews, only 6 reviewers responded, and 4 of those responses were mine.&lt;/p&gt;
+
+&lt;p&gt;We need to acknowledge a basic truth: acknowledging a rebuttal should be a moral minimum. Yet today, there is no incentive for honest reviewing, and no consequence for disengaged or negligent behavior. Why should any of us continue to uphold moral obligations, being fair, constructive, and thorough, when our own work receives careless and dismissive treatment?&lt;/p&gt;
+
+&lt;p&gt;This culture cannot be allowed to continue. Unless ACL/ARR enforces stricter policies, such as making post-rebuttal justification and score updates mandatory (as CVPR and other CVF conferences do), the system will continue to erode.&lt;/p&gt;
+
+&lt;p&gt;I am a young researcher trying to do my part for this community. But after repeated experiences like this, what incentive do I have to stay committed to high standards as a reviewer? Why should I put in the effort when others do not?&lt;/p&gt;
+
+&lt;p&gt;A system where morality is optional will ultimately breed apathy and toxicity. It is time for a structural shift.&lt;/p&gt;
+
+&lt;p&gt;Always, to the hope.&lt;/p&gt;
+
+&lt;h1&gt;acl #emnlp #arr&lt;/h1&gt;
+
+&lt;p&gt;https://www.reddit.com/r/MachineLearning/comments/1lr15dk/d&lt;em&gt;a&lt;/em&gt;serious&lt;em&gt;concern&lt;/em&gt;on&lt;em&gt;the&lt;/em&gt;acl&lt;em&gt;rolling&lt;/em&gt;review/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1lqjgjz/d_aaai2026_2_phase_review_discussion/</id>
+    <title>[D] AAAI-2026 2 phase review discussion</title>
+    <updated>2025-07-04T03:33:45.481673+00:00</updated>
+    <content type="html">&lt;h1&gt;[D] AAAI-2026 2 phase review discussion&lt;/h1&gt;
+
+&lt;p&gt;AAAI-26' Two-phase reviewing for the Main Track:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/"&gt;https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 1: Two reviews supplemented by one AI-generated, non-decisional review.&lt;/p&gt;
+
+&lt;p&gt;Phase 2: Additional reviews for papers not rejected in Phase 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Author response after Phase 2, only for papers not rejected in Phase 1.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So the phase 1 will be reviewed by AI? and it will decide whether ur paper is accepted for phase 2 or rejected? Is it correct? Or the AI will just check the formatting and minor factors?&lt;/p&gt;
+
+&lt;p&gt;Edit : They also said (but why the use of AI)&lt;br /&gt;
+The pilot program will thoughtfully integrate LLM technology at two specific points in the established review process:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Supplementary First-Stage Reviews: LLM-generated reviews will be included as one component of the initial review stage, providing an additional perspective alongside traditional human expert evaluations.&lt;/li&gt;
+&lt;li&gt;Discussion Summary Assistance: LLMs will assist the Senior Program Committee (SPC) members by summarizing reviewer discussions, helping to highlight key points of consensus and disagreement among human reviewers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://www.reddit.com/r/MachineLearning/comments/1lqjgjz/d&lt;em&gt;aaai2026&lt;/em&gt;2&lt;em&gt;phase&lt;/em&gt;review_discussion/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.85
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 21
+&lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lqjgjz/d_aaai2026_2_phase_review_discussion/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;Whaaat?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 6&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I couldn’t believe this was real so I looked it up: https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What are we doing to ourselves, seriously? (Upvotes: 8)&lt;/p&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;&amp;gt;&amp;gt;The pilot program will provide supplementary information in the form of AI-generated reviews and summaries that do not contain any ratings or recommendations. AI-generated supplementary reviews will not play any formal role in the review process, except being visible to the assigned reviewers (after they submit their own reviews), area chairs, and appropriate members of the Program Committee during the paper discussion phase. In addition, AI-generated summaries of reviewer discussions will also be used to assist Senior Program Committee members in their decision making.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 4&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thank you sm for the clarification. Still, this does not really make sense to me &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In usual cases meta reviewers (many if not all) don't see the rebuttals of the authors properly and depend upon the initial ones. umm! understandable coz it can be due to higher submissions and low quality reviews (meta-reviewers are also tired), authors are also the reviewers&lt;br /&gt;
+So, how do we expect them to check all the llm generated reviews.&lt;br /&gt;
+Also many reviewers do use AI to review, so it will be double AI (crying) if the author is unlucky. (Upvotes: 1)&lt;/p&gt;
+
+&lt;h3&gt;Comment 3:&lt;/h3&gt;
+
+&lt;p&gt;what a horrible decision. This degrades the quality of AAAI in my eyes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 4&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LLMs are better than reviewer 3 ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TBH, I would just use the LLM to clarify reviewers comments, it can spot inconsistencies. Other than that, it has a nearly 0 value. I once asked ChatGPT to estimate a paper that claims to predict the stock market using an LLM and it said it is groundbreaking. I also asked it to review one of my papers which has a very novel contribution (not groundbreaking but it is a A* paper, nearly every reviewer we had spotted it) and to find out the main contribution which is not explicitly stated, and it mentioned something else. (Upvotes: 1)&lt;/p&gt;
+</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1lqjgjz/d_aaai2026_2_phase_review_discussion/"/>
+    <summary>&lt;p&gt;AAAI-26' Two-phase reviewing for the Main Track:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/"&gt;https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Phase 1: Two reviews supplemented by one AI-generated, non-decisional review.&lt;/p&gt;
+
+&lt;p&gt;Phase 2: Additional reviews for papers not rejected in Phase 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Author response after Phase 2, only for papers not rejected in Phase 1.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So the phase 1 will be reviewed by AI? and it will decide whether ur paper is accepted for phase 2 or rejected? Is it correct? Or the AI will just check the formatting and minor factors?&lt;/p&gt;
+
+&lt;p&gt;Edit : They also said (but why the use of AI)&lt;br /&gt;
+The pilot program will thoughtfully integrate LLM technology at two specific points in the established review process:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Supplementary First-Stage Reviews: LLM-generated reviews will be included as one component of the initial review stage, providing an additional perspective alongside traditional human expert evaluations.&lt;/li&gt;
+&lt;li&gt;Discussion Summary Assistance: LLMs will assist the Senior Program Committee (SPC) members by summarizing reviewer discussions, helping to highlight key points of consensus and disagreement among human reviewers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;https://www.reddit.com/r/MachineLearning/comments/1lqjgjz/d&lt;em&gt;aaai2026&lt;/em&gt;2&lt;em&gt;phase&lt;/em&gt;review_discussion/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1lqxnie/d_position_machine_learning_conferences_should/</id>
+    <title>[D] Position: Machine Learning Conferences Should Establish a "Refutations and Critiques" Track</title>
+    <updated>2025-07-04T03:33:44.483375+00:00</updated>
+    <content type="html">&lt;h1&gt;[D] Position: Machine Learning Conferences Should Establish a "Refutations and Critiques" Track&lt;/h1&gt;
+
+&lt;p&gt;We recently released a preprint calling for ML conferences to establish a "Refutations and Critiques" track. I'd be curious to hear people's thoughts on this, specifically (1) whether this R&amp;amp;C track could improve ML research and (2) what would be necessary to "do it right".
+https://arxiv.org/abs/2506.19882&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Research
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.91
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 61
+&lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lqxnie/d_position_machine_learning_conferences_should/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;Curious about your thoughts on the 'who polices the police' dilemma here. While ideally what happens is you have strong, meaningful, and accurate critiques of work with over-claimed and/or cherry-picked results, how do you defend against bad actors making spurious submissions against good work due to personal or political reasons?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 29&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I think this is a core question and I'm not sure we have a foolproof answer. I see two ways to try to minimize such possibility, but I'd be curious to hear thoughts from the community&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;- the reviewers should have some sort of "unproductive/nonsubstantive/harmful/vengeful" button to immediately alert the AC/SAC if the submission is non-substantive and vindictive&lt;/p&gt;
+
+&lt;p&gt;- the authors of the work(s) being critiqued should be invited to serve as a special kind of reviewer, where they can optionally argue against the submission. Neutral (standard) reviewers could then weigh the submission's claims against the authors' rebuttals (Upvotes: 15)
+- I'm not sure the possibility of spurious critiques would open up specific problems that other conference tracks do not already need to solve -- what sort of threat model do you have in mind? &lt;/p&gt;
+
+&lt;p&gt;I.e. if the problems are of the type "someone from Big GAN selectively accuses every diffusion model result of being faked", it's hard for me to imagine a solution that won't require case-by-case judgment (Upvotes: 6)&lt;/p&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;Note &lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lne9e0/d_position_machine_learning_conferences_should/"&gt;the previous discussion on this paper&lt;/a&gt; four days ago.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 7&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thank you for sharing! I don't check reddit daily and didn't see this (Upvotes: 2)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1lqxnie/d_position_machine_learning_conferences_should/"/>
+    <summary>&lt;p&gt;We recently released a preprint calling for ML conferences to establish a "Refutations and Critiques" track. I'd be curious to hear people's thoughts on this, specifically (1) whether this R&amp;amp;C track could improve ML research and (2) what would be necessary to "do it right".
+https://arxiv.org/abs/2506.19882&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/MachineLearning/comments/1lqgbdk/d_aiml_interviews_being_more_like_swe_interviews/</id>
+    <title>[D] AI/ML interviews being more like SWE interviews</title>
+    <updated>2025-07-04T03:33:43.741160+00:00</updated>
+    <content type="html">&lt;h1&gt;[D] AI/ML interviews being more like SWE interviews&lt;/h1&gt;
+
+&lt;p&gt;Have people noticed that AI/ML/DS job interviews now feel more SWE-like? For example, relying more on data structures and algorithms leetcode questions. I’ve noticed in my professional friend groups more people are being asked these questions during the coding interview.
+https://www.reddit.com/r/MachineLearning/comments/1lqgbdk/d&lt;em&gt;aiml&lt;/em&gt;interviews&lt;em&gt;being&lt;/em&gt;more&lt;em&gt;like&lt;/em&gt;swe_interviews/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.92
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 109
+&lt;a href="https://www.reddit.com/r/MachineLearning/comments/1lqgbdk/d_aiml_interviews_being_more_like_swe_interviews/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;AI engineer job is just SWE but with AI. And the trending nowadays is just integrating LLMs into existing system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 156&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;AI/ML/DS is no longer about creative research ideas, but about execution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 124&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not it’s still about that but also about this (Upvotes: 37)&lt;/li&gt;
+&lt;li&gt;It's never about creative research ideas at 99% of the places. It's about using AI as part of the software. Think distributed system -- you use it to make your code run faster, but you don't innovate on the actual distributed system protocol. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the remaining 1% of places (i.e., leading industrial reserach labs), there is still quite good research going on, though there is a general shift toward applied stuff and closed models. (Upvotes: 10)
+- Engineering and research are separate roles. (Upvotes: 7)&lt;/p&gt;
+
+&lt;h3&gt;Comment 3:&lt;/h3&gt;
+
+&lt;p&gt;None of the AI research positions I have interviewed for had leetcode, you are probably applying to an "AI Engineer" or however they call it nowadays that is SWE for AI (and then it's not surprising they test you for coding)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 69&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Meta FAIR RS ask/ leetcode, also openai research scientists. It’s not hard per se its just medium ish problems but it’s expected you know average lc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have yet to see a top company (meta fair, deepmind, salesforce research, amazon research, tiktok, openai, anthropic, etc) RS not ask leetcode but the bar is not high on those (Upvotes: 36)&lt;/p&gt;
+</content>
+    <link href="https://www.reddit.com/r/MachineLearning/comments/1lqgbdk/d_aiml_interviews_being_more_like_swe_interviews/"/>
+    <summary>&lt;p&gt;Have people noticed that AI/ML/DS job interviews now feel more SWE-like? For example, relying more on data structures and algorithms leetcode questions. I’ve noticed in my professional friend groups more people are being asked these questions during the coding interview.
+https://www.reddit.com/r/MachineLearning/comments/1lqgbdk/d&lt;em&gt;aiml&lt;/em&gt;interviews&lt;em&gt;being&lt;/em&gt;more&lt;em&gt;like&lt;/em&gt;swe_interviews/&lt;/p&gt;
+</summary>
+  </entry>
+</feed>

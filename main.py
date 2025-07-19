@@ -32,14 +32,17 @@ def main(generate_podcast=False):
         model_name=config['models']['image_model']['name']
     )
 
-    all_content = fetch_and_parse_feeds(config['rss_feeds'])
+    papers_content, reddit_content, repos_content = fetch_and_parse_feeds(config['rss_feeds'])
+    
 
     newsletter_generator = NewsletterGenerator(
         gemini_service, 
         cloudflare_service, 
         prompts, 
         config['output_paths'],
-        all_content
+        papers_content,
+        reddit_content,
+        repos_content
     )
     newsletter_content = newsletter_generator.generate()
     

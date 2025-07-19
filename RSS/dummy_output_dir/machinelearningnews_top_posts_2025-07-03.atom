@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://www.reddit.com/r/machinelearningnews/top?t=day&amp;limit=5</id>
+  <title>Top posts of r/machinelearningnews - 2025-07-03</title>
+  <updated>2025-07-04T03:33:47.182759+00:00</updated>
+  <link href="https://www.reddit.com/r/machinelearningnews/top?t=day"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Daily top posts from r/machinelearningnews</subtitle>
+  <entry>
+    <id>https://www.reddit.com/r/machinelearningnews/comments/1lqosio/open_weights_models_deepseektngr1t2chimera_200/</id>
+    <title>[Open Weights Models] DeepSeek-TNG-R1T2-Chimera - 200% faster than R1-0528 and 20% faster than R1</title>
+    <updated>2025-07-04T03:33:48.009230+00:00</updated>
+    <content type="html">&lt;h1&gt;[Open Weights Models] DeepSeek-TNG-R1T2-Chimera - 200% faster than R1-0528 and 20% faster than R1&lt;/h1&gt;
+
+&lt;p&gt;TNG Technology Consulting has introduced DeepSeek R1T2 Chimera, a next-generation large language model built through Assembly-of-Experts (AoE) merging of R1, V3-0324, and R1-0528. The model achieves significant performance gains—over 200% faster than R1-0528 and 20% faster than R1—while preserving advanced reasoning capabilities. By selectively merging routed expert tensors from R1 and retaining the efficient output style of V3-0324, R1T2 finds an optimal trade-off between speed and intelligence. It also maintains think-token consistency, crucial for applications that require structured reasoning output.&lt;/p&gt;
+
+&lt;p&gt;Evaluation on benchmarks like GPQA Diamond and AIME-24/25 confirms that R1T2 outperforms R1 and nearly matches R1-0528 in intelligence, while being much more token-efficient. The model exhibits emergent reasoning behaviors only when R1 weight contribution crosses a key threshold—validating insights into parameter space interpolation. Early community feedback has been positive, with users praising its responsiveness and reliability. Released under an open MIT license on Hugging Face, R1T2 demonstrates the practical viability of large-scale model merging without retraining.&lt;/p&gt;
+
+&lt;p&gt;Read full article: &lt;a href="https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/"&gt;https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href="https://arxiv.org/pdf/2506.14794"&gt;https://arxiv.org/pdf/2506.14794&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Model on Hugging Face: &lt;a href="https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera"&gt;https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Video summary: &lt;a href="https://www.youtube.com/watch?v=Q3zJDO662mk"&gt;https://www.youtube.com/watch?v=Q3zJDO662mk&lt;/a&gt;
+https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Cool Stuff
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 1.0
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 7
+&lt;a href="https://www.reddit.com/r/machinelearningnews/comments/1lqosio/open_weights_models_deepseektngr1t2chimera_200/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+</content>
+    <link href="https://www.reddit.com/r/machinelearningnews/comments/1lqosio/open_weights_models_deepseektngr1t2chimera_200/"/>
+    <summary>&lt;p&gt;TNG Technology Consulting has introduced DeepSeek R1T2 Chimera, a next-generation large language model built through Assembly-of-Experts (AoE) merging of R1, V3-0324, and R1-0528. The model achieves significant performance gains—over 200% faster than R1-0528 and 20% faster than R1—while preserving advanced reasoning capabilities. By selectively merging routed expert tensors from R1 and retaining the efficient output style of V3-0324, R1T2 finds an optimal trade-off between speed and intelligence. It also maintains think-token consistency, crucial for applications that require structured reasoning output.&lt;/p&gt;
+
+&lt;p&gt;Evaluation on benchmarks like GPQA Diamond and AIME-24/25 confirms that R1T2 outperforms R1 and nearly matches R1-0528 in intelligence, while being much more token-efficient. The model exhibits emergent reasoning behaviors only when R1 weight contribution crosses a key threshold—validating insights into parameter space interpolation. Early community feedback has been positive, with users praising its responsiveness and reliability. Released under an open MIT license on Hugging Face, R1T2 demonstrates the practical viability of large-scale model merging without retraining.&lt;/p&gt;
+
+&lt;p&gt;Read full article: &lt;a href="https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/"&gt;https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href="https://arxiv.org/pdf/2506.14794"&gt;https://arxiv.org/pdf/2506.14794&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Model on Hugging Face: &lt;a href="https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera"&gt;https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Video summary: &lt;a href="https://www.youtube.com/watch?v=Q3zJDO662mk"&gt;https://www.youtube.com/watch?v=Q3zJDO662mk&lt;/a&gt;
+https://www.marktechpost.com/2025/07/03/deepseek-r1t2-chimera-200-faster-than-r1-0528-with-improved-reasoning-and-compact-output/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/machinelearningnews/comments/1lqezy4/together_ai_releases_deepswe_a_fully_opensource/</id>
+    <title>Together AI Releases DeepSWE: A Fully Open-Source RL-Trained Coding Agent Based on Qwen3-32B and Achieves 59% on SWEBench</title>
+    <updated>2025-07-04T03:33:47.717932+00:00</updated>
+    <content type="html">&lt;h1&gt;Together AI Releases DeepSWE: A Fully Open-Source RL-Trained Coding Agent Based on Qwen3-32B and Achieves 59% on SWEBench&lt;/h1&gt;
+
+&lt;p&gt;Together AI has released DeepSWE, a state-of-the-art, fully open-source software engineering agent trained purely through reinforcement learning (RL) on top of the Qwen3-32B language model. Leveraging the modular rLLM post-training framework by Agentica, DeepSWE is optimized for real-world coding tasks and demonstrates outstanding performance on SWEBench-Verified, scoring 59% with test-time scaling and 42.2% Pass@1, surpassing all previous open-weight models. Unlike conventional supervised fine-tuning, DeepSWE learns through iterative feedback using the R2EGym dataset, positioning it as a next-generation language agent capable of experience-based improvement.&lt;/p&gt;
+
+&lt;p&gt;The entire DeepSWE stack is open-sourced—including the model weights, training code, dataset, and training recipe—enabling full reproducibility and extension. Developers can train or adapt the model locally using rLLM, making it suitable for custom software engineering workloads and broader domains like web automation. This release marks a paradigm shift for Together AI from building reasoning language models to creating adaptable, feedback-driven agents. By integrating RL into large-scale language models, DeepSWE paves the way for the future of intelligent code agents that can actively learn, improve, and solve increasingly complex tasks in dynamic environments.&lt;/p&gt;
+
+&lt;p&gt;Read full article: &lt;a href="https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/"&gt;https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Model Weights: Hugging Face – DeepSWE-  &lt;a href="https://huggingface.co/agentica-org/DeepSWE-Preview"&gt;https://huggingface.co/agentica-org/DeepSWE-Preview&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Training Framework: rLLM GitHub Repository- &lt;a href="https://github.com/agentica-project/rllm"&gt;https://github.com/agentica-project/rllm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Training Documentation: DeepSWE Training Overview- &lt;a href="https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33"&gt;https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33&lt;/a&gt;
+https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Cool Stuff
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.91
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 32
+&lt;a href="https://www.reddit.com/r/machinelearningnews/comments/1lqezy4/together_ai_releases_deepswe_a_fully_opensource/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 1:&lt;/h3&gt;
+
+&lt;p&gt;I'm not seeing them on https://www.swebench.com/index.html&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+</content>
+    <link href="https://www.reddit.com/r/machinelearningnews/comments/1lqezy4/together_ai_releases_deepswe_a_fully_opensource/"/>
+    <summary>&lt;p&gt;Together AI has released DeepSWE, a state-of-the-art, fully open-source software engineering agent trained purely through reinforcement learning (RL) on top of the Qwen3-32B language model. Leveraging the modular rLLM post-training framework by Agentica, DeepSWE is optimized for real-world coding tasks and demonstrates outstanding performance on SWEBench-Verified, scoring 59% with test-time scaling and 42.2% Pass@1, surpassing all previous open-weight models. Unlike conventional supervised fine-tuning, DeepSWE learns through iterative feedback using the R2EGym dataset, positioning it as a next-generation language agent capable of experience-based improvement.&lt;/p&gt;
+
+&lt;p&gt;The entire DeepSWE stack is open-sourced—including the model weights, training code, dataset, and training recipe—enabling full reproducibility and extension. Developers can train or adapt the model locally using rLLM, making it suitable for custom software engineering workloads and broader domains like web automation. This release marks a paradigm shift for Together AI from building reasoning language models to creating adaptable, feedback-driven agents. By integrating RL into large-scale language models, DeepSWE paves the way for the future of intelligent code agents that can actively learn, improve, and solve increasingly complex tasks in dynamic environments.&lt;/p&gt;
+
+&lt;p&gt;Read full article: &lt;a href="https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/"&gt;https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Model Weights: Hugging Face – DeepSWE-  &lt;a href="https://huggingface.co/agentica-org/DeepSWE-Preview"&gt;https://huggingface.co/agentica-org/DeepSWE-Preview&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Training Framework: rLLM GitHub Repository- &lt;a href="https://github.com/agentica-project/rllm"&gt;https://github.com/agentica-project/rllm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Training Documentation: DeepSWE Training Overview- &lt;a href="https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33"&gt;https://pretty-radio-b75.notion.site/DeepSWE-Training-a-Fully-Open-sourced-State-of-the-Art-Coding-Agent-by-Scaling-RL-22281902c1468193aabbe9a8c59bbe33&lt;/a&gt;
+https://www.marktechpost.com/2025/07/02/together-ai-releases-deepswe-a-fully-open-source-rl-trained-coding-agent-based-on-qwen3-32b-and-achieves-59-on-swebench/&lt;/p&gt;
+</summary>
+  </entry>
+</feed>

@@ -2,3 +2,5 @@ requests
 beautifulsoup4
 feedgen
 pytz
+httpx
+markdown2

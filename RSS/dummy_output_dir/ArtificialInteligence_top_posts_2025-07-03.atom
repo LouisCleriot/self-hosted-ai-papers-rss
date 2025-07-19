@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://www.reddit.com/r/ArtificialInteligence/top?t=day&amp;limit=5</id>
+  <title>Top posts of r/ArtificialInteligence - 2025-07-03</title>
+  <updated>2025-07-04T03:33:48.269324+00:00</updated>
+  <link href="https://www.reddit.com/r/ArtificialInteligence/top?t=day"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Daily top posts from r/ArtificialInteligence</subtitle>
+  <entry>
+    <id>https://www.reddit.com/r/ArtificialInteligence/comments/1lqxkpd/how_runtime_attacks_can_turn_profitable_ai_into/</id>
+    <title>How runtime attacks can turn profitable AI into budget holes</title>
+    <updated>2025-07-04T03:33:52.847080+00:00</updated>
+    <content type="html">&lt;h1&gt;How runtime attacks can turn profitable AI into budget holes&lt;/h1&gt;
+
+&lt;p&gt;Enterprise AI projects are increasingly grappling with &lt;strong&gt;hidden security costs&lt;/strong&gt; that weren’t accounted for in initial ROI calculations. While AI inference offers real-time value, it also presents a new attack surface that drives up total cost of ownership (TCO). Breach containment in regulated industries can top $5 million per incident, and retrofitting compliance controls may run into the hundreds of thousands. Even a single trust failure—like a model producing biased or harmful outputs—can trigger stock drops or contract cancellations, eroding AI ROI and making AI deployments a “budget wildcard” if inference-stage defenses aren’t in place.&lt;/p&gt;
+
+&lt;p&gt;Adversaries are already exploiting &lt;strong&gt;inference-time vulnerabilities&lt;/strong&gt; catalogued in the OWASP Top 10 for LLM applications. Key vectors include prompt injection and insecure output handling (LLM01/02), model and training-data poisoning (LLM03), denial-of-service via complex inputs, supply-chain and plugin flaws (LLM05/07/08)—for example, a Flowise plugin leak exposed GitHub tokens and API keys on 438 servers—confidential-data extraction (LLM06), excessive agent privileges (LLM08/09), and outright theft of proprietary models (LLM10). Real-world stats underscore the urgency: in early 2024, 35% of cloud intrusions used valid credentials, unattributed cloud attacks climbed 26%, and an AI-driven deepfake facilitated a $25.6 million fraudulent transfer, while AI-generated phishing emails achieved a 54% click-through rate—over four times that of manual campaigns.&lt;/p&gt;
+
+&lt;p&gt;To protect AI ROI, organizations must &lt;strong&gt;treat inference security as a strategic investment&lt;/strong&gt;, not an afterthought. Security fundamentals—strict identity-first controls, unified cloud posture management, and zero-trust microservice isolation—apply just as they do to operating systems. More importantly, CISOs and CFOs should build &lt;strong&gt;risk-adjusted ROI models&lt;/strong&gt; that tie security spend to anticipated breach costs: for instance, a 10% chance of a $5 million loss equates to $500 000 in expected risk, justifying a $350 000 defense budget for a net $150 000 gain. Practical budgeting splits typically earmark 35% for runtime monitoring, 25% for adversarial simulation, 20% for compliance tooling, and 20% for user behavior analytics. A telecom deploying output verification, for example, prevented 12 000 misrouted queries monthly, saving $6.3 million in penalties and call-center costs. By aligning AI innovation with robust security investment, enterprises can transform a high-risk gamble into a sustainable, high-ROI engine.&lt;/p&gt;
+
+&lt;p&gt;Full article: &lt;a href="https://aiobserver.co/how-runtime-attacks-can-turn-profitable-ai-into-budget-holes/"&gt;https://aiobserver.co/how-runtime-attacks-can-turn-profitable-ai-into-budget-holes/&lt;/a&gt;
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqxkpd/how&lt;em&gt;runtime&lt;/em&gt;attacks&lt;em&gt;can&lt;/em&gt;turn&lt;em&gt;profitable&lt;/em&gt;ai_into/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; News
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.79
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 7
+&lt;a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqxkpd/how_runtime_attacks_can_turn_profitable_ai_into/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;I never realized AI could be that risky on the backend. Like it makes money, but one screw-up and boom, you're paying out the nose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is one of the reasons why a lot of developers are not afraid to lose their job. (Upvotes: 1)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqxkpd/how_runtime_attacks_can_turn_profitable_ai_into/"/>
+    <summary>&lt;p&gt;Enterprise AI projects are increasingly grappling with &lt;strong&gt;hidden security costs&lt;/strong&gt; that weren’t accounted for in initial ROI calculations. While AI inference offers real-time value, it also presents a new attack surface that drives up total cost of ownership (TCO). Breach containment in regulated industries can top $5 million per incident, and retrofitting compliance controls may run into the hundreds of thousands. Even a single trust failure—like a model producing biased or harmful outputs—can trigger stock drops or contract cancellations, eroding AI ROI and making AI deployments a “budget wildcard” if inference-stage defenses aren’t in place.&lt;/p&gt;
+
+&lt;p&gt;Adversaries are already exploiting &lt;strong&gt;inference-time vulnerabilities&lt;/strong&gt; catalogued in the OWASP Top 10 for LLM applications. Key vectors include prompt injection and insecure output handling (LLM01/02), model and training-data poisoning (LLM03), denial-of-service via complex inputs, supply-chain and plugin flaws (LLM05/07/08)—for example, a Flowise plugin leak exposed GitHub tokens and API keys on 438 servers—confidential-data extraction (LLM06), excessive agent privileges (LLM08/09), and outright theft of proprietary models (LLM10). Real-world stats underscore the urgency: in early 2024, 35% of cloud intrusions used valid credentials, unattributed cloud attacks climbed 26%, and an AI-driven deepfake facilitated a $25.6 million fraudulent transfer, while AI-generated phishing emails achieved a 54% click-through rate—over four times that of manual campaigns.&lt;/p&gt;
+
+&lt;p&gt;To protect AI ROI, organizations must &lt;strong&gt;treat inference security as a strategic investment&lt;/strong&gt;, not an afterthought. Security fundamentals—strict identity-first controls, unified cloud posture management, and zero-trust microservice isolation—apply just as they do to operating systems. More importantly, CISOs and CFOs should build &lt;strong&gt;risk-adjusted ROI models&lt;/strong&gt; that tie security spend to anticipated breach costs: for instance, a 10% chance of a $5 million loss equates to $500 000 in expected risk, justifying a $350 000 defense budget for a net $150 000 gain. Practical budgeting splits typically earmark 35% for runtime monitoring, 25% for adversarial simulation, 20% for compliance tooling, and 20% for user behavior analytics. A telecom deploying output verification, for example, prevented 12 000 misrouted queries monthly, saving $6.3 million in penalties and call-center costs. By aligning AI innovation with robust security investment, enterprises can transform a high-risk gamble into a sustainable, high-ROI engine.&lt;/p&gt;
+
+&lt;p&gt;Full article: &lt;a href="https://aiobserver.co/how-runtime-attacks-can-turn-profitable-ai-into-budget-holes/"&gt;https://aiobserver.co/how-runtime-attacks-can-turn-profitable-ai-into-budget-holes/&lt;/a&gt;
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqxkpd/how&lt;em&gt;runtime&lt;/em&gt;attacks&lt;em&gt;can&lt;/em&gt;turn&lt;em&gt;profitable&lt;/em&gt;ai_into/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/ArtificialInteligence/comments/1lr1j3j/could_googles_veo_3_be_the_start_of_playable/</id>
+    <title>"Could Google’s Veo 3 be the start of playable world models?"</title>
+    <updated>2025-07-04T03:33:52.232605+00:00</updated>
+    <content type="html">&lt;h1&gt;"Could Google’s Veo 3 be the start of playable world models?"&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/"&gt;https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;"World models are different from video-generation models. The former simulates the dynamics of a real-world environment, which lets agents predict how the world will evolve in response to their actions. Video-gen models synthesize realistic video sequences.&lt;/p&gt;
+
+&lt;p&gt;Google has plans to turn its multimodal foundation model, Gemini 2.5 Pro, into a world model that simulates aspects of the human brain. In December, DeepMind unveiled &lt;a href="https://techcrunch.com/2024/12/04/deepminds-genie-2-can-generate-interactive-worlds-that-look-like-video-games/"&gt;Genie 2&lt;/a&gt;, a model that can generate an “endless” variety of playable worlds. The following month, we reported that Google was forming a new team to work &lt;a href="https://techcrunch.com/2025/01/06/google-is-forming-a-new-team-to-build-ai-that-can-simulate-the-physical-world/"&gt;on AI models that can simulate the real world.&lt;/a&gt;"
+https://www.reddit.com/r/ArtificialInteligence/comments/1lr1j3j/could&lt;em&gt;googles&lt;/em&gt;veo&lt;em&gt;3&lt;/em&gt;be&lt;em&gt;the&lt;/em&gt;start&lt;em&gt;of&lt;/em&gt;playable/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; News
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.72
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 8
+&lt;a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lr1j3j/could_googles_veo_3_be_the_start_of_playable/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;Dennis Hassabis retweeted someone asking to play within their VEO 3 videos as a videogame recently, so might be close.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;h3&gt;Comment 3:&lt;/h3&gt;
+
+&lt;p&gt;No, it's just a video.&lt;/p&gt;
+
+&lt;p&gt;Other companies have already done interactive games.&lt;/p&gt;
+
+&lt;p&gt;This article and video have no relation to that&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+</content>
+    <link href="https://www.reddit.com/r/ArtificialInteligence/comments/1lr1j3j/could_googles_veo_3_be_the_start_of_playable/"/>
+    <summary>&lt;p&gt;&lt;a href="https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/"&gt;https://techcrunch.com/2025/07/02/could-googles-veo-3-be-the-start-of-playable-world-models/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;"World models are different from video-generation models. The former simulates the dynamics of a real-world environment, which lets agents predict how the world will evolve in response to their actions. Video-gen models synthesize realistic video sequences.&lt;/p&gt;
+
+&lt;p&gt;Google has plans to turn its multimodal foundation model, Gemini 2.5 Pro, into a world model that simulates aspects of the human brain. In December, DeepMind unveiled &lt;a href="https://techcrunch.com/2024/12/04/deepminds-genie-2-can-generate-interactive-worlds-that-look-like-video-games/"&gt;Genie 2&lt;/a&gt;, a model that can generate an “endless” variety of playable worlds. The following month, we reported that Google was forming a new team to work &lt;a href="https://techcrunch.com/2025/01/06/google-is-forming-a-new-team-to-build-ai-that-can-simulate-the-physical-world/"&gt;on AI models that can simulate the real world.&lt;/a&gt;"
+https://www.reddit.com/r/ArtificialInteligence/comments/1lr1j3j/could&lt;em&gt;googles&lt;/em&gt;veo&lt;em&gt;3&lt;/em&gt;be&lt;em&gt;the&lt;/em&gt;start&lt;em&gt;of&lt;/em&gt;playable/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/ArtificialInteligence/comments/1lqfjjo/oneminute_daily_ai_news_722025/</id>
+    <title>One-Minute Daily AI News 7/2/2025</title>
+    <updated>2025-07-04T03:33:51.309227+00:00</updated>
+    <content type="html">&lt;h1&gt;One-Minute Daily AI News 7/2/2025&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;AI virtual personality &lt;strong&gt;YouTubers&lt;/strong&gt;, or ‘VTubers,’ are earning millions.[1]&lt;/li&gt;
+&lt;li&gt;Possible AI band gains thousands of listeners on Spotify.[2]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI&lt;/strong&gt; condemns Robinhood’s ‘OpenAI tokens’.[3]&lt;/li&gt;
+&lt;li&gt;Racist videos made with AI are going viral on &lt;strong&gt;TikTok&lt;/strong&gt;.[4]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sources included at: &lt;a href="https://bushaicave.com/2025/07/02/one-minute-daily-ai-news-7-2-2025/"&gt;https://bushaicave.com/2025/07/02/one-minute-daily-ai-news-7-2-2025/&lt;/a&gt;
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqfjjo/oneminute&lt;em&gt;daily&lt;/em&gt;ai&lt;em&gt;news&lt;/em&gt;722025/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; News
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.85
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 9
+&lt;a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqfjjo/oneminute_daily_ai_news_722025/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+</content>
+    <link href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqfjjo/oneminute_daily_ai_news_722025/"/>
+    <summary>&lt;ol&gt;
+&lt;li&gt;AI virtual personality &lt;strong&gt;YouTubers&lt;/strong&gt;, or ‘VTubers,’ are earning millions.[1]&lt;/li&gt;
+&lt;li&gt;Possible AI band gains thousands of listeners on Spotify.[2]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI&lt;/strong&gt; condemns Robinhood’s ‘OpenAI tokens’.[3]&lt;/li&gt;
+&lt;li&gt;Racist videos made with AI are going viral on &lt;strong&gt;TikTok&lt;/strong&gt;.[4]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sources included at: &lt;a href="https://bushaicave.com/2025/07/02/one-minute-daily-ai-news-7-2-2025/"&gt;https://bushaicave.com/2025/07/02/one-minute-daily-ai-news-7-2-2025/&lt;/a&gt;
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqfjjo/oneminute&lt;em&gt;daily&lt;/em&gt;ai&lt;em&gt;news&lt;/em&gt;722025/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/ArtificialInteligence/comments/1lqshua/is_the_cost_of_using_an_llm_being_subsidized_to/</id>
+    <title>Is the cost of using an LLM being subsidized to attract more users or not?</title>
+    <updated>2025-07-04T03:33:51.002879+00:00</updated>
+    <content type="html">&lt;h1&gt;Is the cost of using an LLM being subsidized to attract more users or not?&lt;/h1&gt;
+
+&lt;p&gt;Maybe subsidized is the wrong word. But are AI companies (like open ai or Gemini or mid journey etc) giving users discounts when using their services? Or are these companies already making money? &lt;/p&gt;
+
+&lt;p&gt;In other words, will the cost of using these services go up in the future when they want to start making money? Right now they're in the investing phase? &lt;/p&gt;
+
+&lt;p&gt;https://www.reddit.com/r/ArtificialInteligence/comments/1lqshua/is&lt;em&gt;the&lt;/em&gt;cost&lt;em&gt;of&lt;/em&gt;using&lt;em&gt;an&lt;/em&gt;llm&lt;em&gt;being&lt;/em&gt;subsidized_to/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.77
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 12
+&lt;a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqshua/is_the_cost_of_using_an_llm_being_subsidized_to/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;Of course. The industry is currently burning money hoping the math in the future will work in their favor when hardware becomes cheaper and more efficient. It's a war for market share or exit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 16&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;h3&gt;Comment 3:&lt;/h3&gt;
+
+&lt;p&gt;Yes, and in capitalism this happens whenever a company wants to dominate the market by habit and also kill competitors. If you do some research, you'll see that all the major companies are still operating at a loss. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;At the beginning of Uber in my country we had insane coupons every day, as soon as they dominated the market they stopped and started practicing the real price.&lt;/li&gt;
+&lt;li&gt;At the beginning of Amazon operations in my country, we had insane promotions for books, until they broke the biggest bookstores in the country. Now we're seeing real prices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 13&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I remember i would buy all the books i wanted coz they were so cheap then had to give them away to charity just so i can buy more. It was a crazy time if u were a book lover (Upvotes: 2)
+&lt;h3&gt;Comment 4:&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Not only do they sell the product at a loss, they sell it at loss to people that also sell it at a loss, look at Cursor if you want to have a good laugh of losses layering !&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 6&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;That's the real sting for companies wrapping LLMs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I use Cursor everyday but it's basically VS Code with Claude strapped to it (in my case). I could ditch it in a heartbeat if a better option came along, Claude is the sticky product not Cursor. (Upvotes: 2)
+- This is what I was wondering &lt;/p&gt;
+
+&lt;p&gt;People are using open ai and other LLM api calls to build and sell products&lt;/p&gt;
+
+&lt;p&gt;Won't their pricing be affected too? (Upvotes: 1)&lt;/p&gt;
+
+&lt;h3&gt;Comment 5:&lt;/h3&gt;
+
+&lt;p&gt;Yep most LLM usage today is heavily subsidized. OpenAI, Anthropic, etc. are still burning cash to grow market share. Infra costs are real, and current pricing often doesn’t reflect true cost. Expect prices to rise or shift toward usage tiers once the land grab phase ends.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 2&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+</content>
+    <link href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqshua/is_the_cost_of_using_an_llm_being_subsidized_to/"/>
+    <summary>&lt;p&gt;Maybe subsidized is the wrong word. But are AI companies (like open ai or Gemini or mid journey etc) giving users discounts when using their services? Or are these companies already making money? &lt;/p&gt;
+
+&lt;p&gt;In other words, will the cost of using these services go up in the future when they want to start making money? Right now they're in the investing phase? &lt;/p&gt;
+
+&lt;p&gt;https://www.reddit.com/r/ArtificialInteligence/comments/1lqshua/is&lt;em&gt;the&lt;/em&gt;cost&lt;em&gt;of&lt;/em&gt;using&lt;em&gt;an&lt;/em&gt;llm&lt;em&gt;being&lt;/em&gt;subsidized_to/&lt;/p&gt;
+</summary>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/ArtificialInteligence/comments/1lqx0qh/with_the_ai_models_being_trained_using_reddit/</id>
+    <title>With the AI models being trained using Reddit data, do you think by now someone somewhere would have gotten shittymorph'ed?</title>
+    <updated>2025-07-04T03:33:49.514804+00:00</updated>
+    <content type="html">&lt;h1&gt;With the AI models being trained using Reddit data, do you think by now someone somewhere would have gotten shittymorph'ed?&lt;/h1&gt;
+
+&lt;p&gt;Triggered by this thought, I checked if Gemini knows whats going on when I ask it to respond in shittymorph style comment.&lt;/p&gt;
+
+&lt;p&gt;Did not disappoint.&lt;/p&gt;
+
+&lt;p&gt;Maybe by delving deeper into more obscure reddit lore, we can identify the extent of models knowledge. Any ideas?
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqx0qh/with&lt;em&gt;the&lt;/em&gt;ai&lt;em&gt;models&lt;/em&gt;being&lt;em&gt;trained&lt;/em&gt;using_reddit/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Discussion
+&lt;strong&gt;Upvote Ratio:&lt;/strong&gt; 0.83
+&lt;strong&gt;Upvotes:&lt;/strong&gt; 21
+&lt;a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqx0qh/with_the_ai_models_being_trained_using_reddit/"&gt;View on Reddit&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Comments:&lt;/h2&gt;
+
+&lt;h3&gt;Comment 2:&lt;/h3&gt;
+
+&lt;p&gt;Lmao yeah I bet some poor model’s already been shittymorph’ed and doesn’t even know it. Honestly now I’m tempted to throw deep Reddit memes at AI just to see what sticks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 2&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;h3&gt;Comment 3:&lt;/h3&gt;
+
+&lt;p&gt;Idfk what shittymorphing is&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;/u/shittymorph/ its a meme account that got famous for writing real sounding answers to questions just to drop a&lt;br /&gt;
+&amp;gt;back in nineteen ninety eight the undertaker threw mankind off hell in a cell and plummeted sixteen feet through an announcers table.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;at the end (Upvotes: 4)&lt;/p&gt;
+
+&lt;h3&gt;Comment 4:&lt;/h3&gt;
+
+&lt;p&gt;Lol excuse my ignorance but what the heck is a "shittymorph'ed"? sounds like my Eevee just evolved into a sylveon after I put my game down for a second right after completing a battle then I came back to find the "congrats!" message on my screen. Lol.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h4&gt;Responses to this comment:&lt;/h4&gt;
+</content>
+    <link href="https://www.reddit.com/r/ArtificialInteligence/comments/1lqx0qh/with_the_ai_models_being_trained_using_reddit/"/>
+    <summary>&lt;p&gt;Triggered by this thought, I checked if Gemini knows whats going on when I ask it to respond in shittymorph style comment.&lt;/p&gt;
+
+&lt;p&gt;Did not disappoint.&lt;/p&gt;
+
+&lt;p&gt;Maybe by delving deeper into more obscure reddit lore, we can identify the extent of models knowledge. Any ideas?
+https://www.reddit.com/r/ArtificialInteligence/comments/1lqx0qh/with&lt;em&gt;the&lt;/em&gt;ai&lt;em&gt;models&lt;/em&gt;being&lt;em&gt;trained&lt;/em&gt;using_reddit/&lt;/p&gt;
+</summary>
+  </entry>
+</feed>
